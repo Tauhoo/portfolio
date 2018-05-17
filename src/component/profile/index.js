@@ -64,11 +64,11 @@ export default class extends Component {
         <DetailContainer isPlay={this.state.isPlay}>
           <Detail>
             Hello, I'm wachirawit wacharak. I'm
-            just a inexperienced full-stack
-            developer from thailand. I love to
-            make the beautiful website and
-            hope that I will have chance to make
-            a big cool website in some day.
+            just a inexperienced stack developer
+            from thailand. I love to make the
+            beautiful website and hope that I
+            will have chance to make a big cool
+            website in some day.
           </Detail>
         </DetailContainer>
       </Container>
