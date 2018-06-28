@@ -27,7 +27,7 @@ export default class extends Component {
       fullScreen : 'off',
     }
 
-    if( typeof window != "undefined" && typeof document != "undefined" ){
+    if( window !== undefined && document !== undefined ){
       this.fs = fullscreen(document.getElementsByTagName('body')[0])
     }
     this.screenChange = this.screenChange.bind(this)

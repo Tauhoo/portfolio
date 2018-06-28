@@ -30053,7 +30053,7 @@ var _class = function (_Component) {
           _react2.default.createElement(
             Detail,
             null,
-            'Hello, I\'m wachirawit wacharak. I\'m just a inexperienced full-stack developer from thailand. I love to make the beautiful website and hope that I will have chance to make a big cool website in some day.'
+            'Hello, I\'m wachirawit wacharak. I\'m just a inexperienced stack developer from thailand. I love to make the beautiful website and hope that I will have chance to make a big cool website in some day.'
           )
         )
       );

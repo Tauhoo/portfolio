@@ -2,28 +2,30 @@ import React,{ Component } from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  display: inline-flex;
+  display: inline-block;
   margin: 1vw;
 `
 
 const Img = styled.div`
   background-image: url('${(props) => props.src}');
   background-size: cover;
-  height: 6vw;
-  width: 6vw;
+  height: 60px;
+  width: 60px;
   box-shadow: 0 2px 4px #57606f;
   background-color: white;
   border-radius: 1vw;
+  display: inline-block;
 `
 
 const Detail = styled.div`
+  display: inline-block;
   margin-top: 0.3vw;
   margin-left: 2vw;
 `
 const PercentBar = styled.div`
-  width: 20vw;
-  height: 1vw;
-  border-radius: 0.5vw;
+  width: 150px;
+  height: 10px;
+  border-radius: 5px;
   background-color: #ffffff;
   margin-top: 0.5vw;
   overflow: hidden;
@@ -39,7 +41,7 @@ const Percent = styled.div`
 
 const Name = styled.span`
   font-family: 'Ubuntu';
-  font-size: 3vw;
+  font-size: 2rem;
   color: #2d3436;
   margin-top: 1vw;
   text-shadow: 0 2px 4px #57606f;

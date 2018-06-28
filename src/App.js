@@ -25,6 +25,10 @@ class App extends Component {
     this.handleWheel = this.handleWheel.bind(this)
   }
 
+  componentDidMount(){
+    document.documentElement.style.fontSize = '16px'
+  }
+
   handleWheel(e){
     var delta = e.deltaY;
     if(this.state.isChanging)return;

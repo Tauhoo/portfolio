@@ -11,22 +11,21 @@ const Container = styled.div`
   z-index: 999;
 `
 const Topic = styled.div`
-  transform: translate(-50%,-50%);
-  margin-left: ${(props)=>props.isPlay ? '25vw' : '-50vw'};
-  margin-top: 15vh;
+  margin-left: ${(props)=>props.isPlay ? '13vw' : '-50vw'};
+  margin-top: 30px;
   transition: 0.6s;
 `
 const Text = styled.div`
-  text-align: center;
   font-family: 'Ubuntu';
-  font-size: 8vw;
+  font-size: 4rem;
   color: #2d3436;
   text-shadow: 0 2px 4px #57606f;
 `
 const SkillContainer = styled.div`
-  margin-left: 18vw;
+  margin-top: 10px;
+  margin-left: 13vw;
   transition: 0.6s;
-  width:  60vw;
+  width:  80vw;
 `
 
 export default class extends Component {

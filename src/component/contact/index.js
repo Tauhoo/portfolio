@@ -11,16 +11,15 @@ const Container = styled.div`
   z-index: 999;
 `
 const Topic = styled.div`
-  transform: translate(-50%,-50%);
-  margin-left: ${(props)=> props.isPlay ? '25vw' : '-60vw'};
+  margin-left: ${(props)=> props.isPlay ? '13vw' : '-60vw'};
   opacity: ${(props)=> props.isPlay ? '1' : '0'};
-  margin-top: 15vh;
+  margin-top: 30px;
   transition: 0.6s;
 `
 const Text = styled.div`
-  text-align: center;
+  text-align: left;
   font-family: 'Ubuntu';
-  font-size: 8vw;
+  font-size: 4rem;
   color: #2d3436;
   text-shadow: 0 2px 4px #57606f;
 `
@@ -36,7 +35,7 @@ const Detail = styled.span`
   word-wrap:break-word;
   text-align: center;
   font-family: 'Ubuntu';
-  font-size: 4vw;
+  font-size: 2rem;
   color: #2d3436;
   text-shadow: 0 2px 4px #57606f;
 `

@@ -38,21 +38,31 @@ const Topic = styled.div`
   opacity: ${(props)=> props.isPlay ? 1 : 0};
   margin-left: ${(props)=> props.isPlay ? '50vw' : '-100%'};
 `
-const Name = styled.div`
+const Name = styled.span`
   text-align: center;
   font-family: 'Ubuntu';
-  font-size: 8vw;
+  font-size: 9vw;
   color: white;
   transition: 0.6s;
   text-shadow: 0 2px 4px #57606f;
+  display: block;
+  word-wrap: break-word;
+  @media (max-width: 450px) {
+    font-size: 2rem;
+  }
 `
 const Career = styled.div`
   text-align: right;
   font-family: 'Ubuntu';
-  font-size: 2vw;
+  font-size: 1.5rem;
   color: white;
   transition: 0.6s;
   text-shadow: 0 2px 4px #57606f;
+  margin-top: 10px;
+  @media (max-width: 450px) {
+    text-align: center;
+    font-size: 1.3rem;
+  }
 `
 
 class index extends Component {
@@ -93,7 +103,6 @@ class index extends Component {
         <Topic isPlay={this.state.isPlay}>
           <Name>WACIRAWIT</Name>
           <Name>WACHARAK</Name>
-          <br/>
           <Career>full-stack developer</Career>
         </Topic>
       </Container>

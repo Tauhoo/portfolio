@@ -12,33 +12,36 @@ const Container = styled.div`
 `
 
 const Topic = styled.div`
-  transform: translate(-50%,-50%);
-  margin-top: 15vh;
-  margin-left: ${(props)=>props.isPlay ? '25vw' : '-55vw'};
+  margin-top: 30px;
+  margin-left: ${(props)=>props.isPlay ? '13vw' : '-55vw'};
   opacity:  ${(props)=>props.isPlay ? '1' : '0'};
   transition: 0.6s;
   text-shadow: 0 2px 4px #57606f;
 `
-const Name = styled.div`
-  text-align: center;
+const Name = styled.span`
+  text-align: left;
   font-family: 'Ubuntu';
-  font-size: 8vw;
+  font-size: 4rem;
   color: #2d3436;
 `
 
 const DetailContainer = styled.div`
   width: 50vw;
   height: 60vh;
+  margin-top: 10px;
   margin-left: ${(props)=>props.isPlay ? '13vw' : '-55vw'};
   opacity:  ${(props)=>props.isPlay ? '1' : '0'};
   transition: 0.6s;
+  @media (max-width: 600px) {
+    width: 80vw;
+  }
 `
 
 const Detail = styled.span`
   word-wrap:break-word;
   text-align: center;
   font-family: 'Ubuntu';
-  font-size: 3vw;
+  font-size: 2rem;
   color: #2d3436;
   text-shadow: 0 2px 4px #57606f;
 `
